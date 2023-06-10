@@ -1,5 +1,0 @@
-            	<configuration>
-					<suppressionFiles>
-						<suppressionFile>suppression.xml</suppressionFile>
-					</suppressionFiles>
-				</configuration>
