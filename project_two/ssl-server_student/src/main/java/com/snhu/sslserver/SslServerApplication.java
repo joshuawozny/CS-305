@@ -14,7 +14,6 @@ public class SslServerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SslServerApplication.class, args);
 	}
-
 }
 
 @RestController
@@ -33,9 +32,7 @@ class ServerController{
 			return "<p>data:"+data+"</p><p>SHA-256, checksum value:"+checksum+"</p>";
 		} catch (NoSuchAlgorithmException e) {
 			return "<p>error: "+e.getMessage();
-		}
-    	
-        
+		}        
     }
     public static String bytesToHex(byte[] bytes) {
         StringBuilder sb = new StringBuilder();
